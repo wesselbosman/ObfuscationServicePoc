@@ -18,6 +18,7 @@ namespace ObfuscationServicePoc
 			foreach (var patient in obfuscateResults)
 			{
 				Console.WriteLine($"{patient.Name} - {patient.Age} - {patient.DateOfBirth}");
+				Console.WriteLine("-------------------------------------------------------");
 			}
 
 			Console.ReadLine();
